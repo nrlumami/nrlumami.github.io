@@ -5,31 +5,185 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biodataku</title>
+    <style>
+        #bg1{
+            position: absolute;
+            width: 500px;
+            height: 625px;
+            left: 0px;
+            top: 0px;
+
+            background: #2C542F;            
+        }
+        #bg1 .img{
+            position: absolute;
+            left: 120px;
+            top: 50px;
+        }
+        #bg1 .nama{
+            position: absolute;
+            left: 60px;
+            top: 330px;
+
+            font-family: 'Cooper Black';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 52px;
+
+            color: white;
+        }
+        #bg1 .kmps{
+            position: absolute;
+            left: 60px;
+            top: 380px;
+
+            font-family: 'centaur';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+
+            color: white;
+        }
+
+        #bg2{
+            position: absolute;
+            width: 805px;
+            height: 625px;
+            left: 500px;
+            top: 0px;
+
+            background: #F2F4E6;  
+        }
+        #bg2 .tntng{
+            position: absolute;
+            left: 60px;
+            top: 10px;
+
+            font-family: 'Cooper Black';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 30px;
+
+            color: #2C542F;            
+        }
+        #bg2 .me{
+            position: absolute;
+            left: 80px;
+            top: 50px;
+
+            font-family: 'centaur';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+
+            color: #2C542F; 
+        }
+        #bg2 .ahli{
+            position: absolute;
+            left: 60px;
+            top: 140px;
+
+            font-family: 'Cooper Black';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 30px;
+
+            color: #2C542F; 
+        }
+        #bg2 .skill{
+            position: absolute;
+            left: 60px;
+            top: 180px;
+
+            font-family: 'centaur';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+
+            color: #2C542F; 
+        }
+        #bg2 .pendidikan{
+            position: absolute;
+            left: 60px;
+            top: 270px;
+
+            font-family: 'Cooper Black';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 30px;
+
+            color: #2C542F;
+        }
+        #bg2 .school{
+            position: absolute;
+            left: 60px;
+            top: 310px;
+
+            font-family: 'centaur';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+
+            color: #2C542F; 
+        }
+        #bg2 .kontak{
+            position: absolute;
+            left: 60px;
+            top: 380px;
+
+            font-family: 'Cooper Black';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 30px;
+
+            color: #2C542F;
+        }
+        #bg2 .portofolio{
+            position: absolute;
+            left: 60px;
+            top: 420px;
+
+            font-family: 'centaur';
+            font-style: normal;
+            font-weight: 100;
+            font-size: 20px;
+
+            color: #2C542F;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Nurul Umami</h1>
-    <img src="Gambar-Kartun-Berhijab-lucu.jpg" alt="" width="300">
-    <h1>Tentang Saya</h1>
-    <p>Hello!!!!!!!!  <br>
-        Nama saya Nurul Umami dan bisa dipanggil Nurul. 
-        Saya adalah mahasiswi dari Politeknik Negeri Banyuwangi (POLIWANGI). <br>
-        Saya tinggal di Banyuwangi dan saya lahir di Banyuwangi, 26 Februari 2002. 
-        Saya memiliki banyak hobi, salah satunya adalah memasak.
-    </p>
-    <h2>Keahlian Saya</h2>
-    <ol>
-        <li>Mengoprasikan Microsoft Word dan Microsoft Excel</li>
-        <li>Adobe Corel Draw</li>
-        <li>HTML</li>
-        <li>CSS</li>
-    </ol>
-    <h2>Pendidikan Saya</h2>
-    <ul>
-        <li>2015-2017       : MTS Gintangan</li>
-        <li>2017-2020       : SMK Negeri Ihya'Ulumudin Singojuruh</li>
-        <li>2020- sekarang  : Politeknik Negeri Banyuwangi</li>
-    </ul>
-    <h2>Kontak Saya</h2>
-    <p><a href="portofolio.html">Portofolio</a></p>
+    <div id="bg1">
+        <img src="fotoku.jpg" alt="" width="250" class="img">
+        <h1 class="nama">Nurul Umami</h1>
+        <h6 class="kmps">Politeknik Negeri Banyuwangi
+            <hr width="400">
+        </h6>
+    </div>
+    <div id="bg2">
+        <h1 class="tntng">Tentang Saya</h1>
+        <p class="me">Hello!!!!!!!!  <br>
+            Nama saya Nurul Umami dan bisa dipanggil Nurul. 
+            Saya adalah mahasiswi dari Politeknik Negeri Banyuwangi (POLIWANGI).
+            Saya tinggal di Banyuwangi dan saya lahir di Banyuwangi, 26 Februari 2002. 
+            Saya memiliki banyak hobi, salah satunya adalah memasak.
+        </p>
+        <h2 class="ahli">Keahlian Saya</h2>
+        <ol class="skill">
+            <li>Mengoprasikan Microsoft Word dan Microsoft Excel</li>
+            <li>Adobe Corel Draw</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ol>
+        <h2 class="pendidikan">Pendidikan Saya</h2>
+        <ul class="school">
+            <li>2015-2017       : MTS Gintangan</li>
+            <li>2017-2020       : SMK Negeri Ihya'Ulumudin Singojuruh</li>
+            <li>2020- sekarang  : Politeknik Negeri Banyuwangi</li>
+        </ul>
+        <h2 class="kontak">Kontak Saya</h2>
+        <p class="portofolio"><a href="portofolio.html">Portofolio</a></p>
+    </div>
 </body>
 </html>
