@@ -1,9 +1,48 @@
+#navbar{
+position: absolute;
+width: 1440px;
+height: 50px;
+left: 0px;
+top: 0px;
+
+background: #FA89B1;
+}
+
+#navbar .linkbio{
+position: absolute;
+width: 158px;
+height: 46px;
+left: 922px;
+top: -30px;
+
+font-family: 'Cooper Black';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 46px;
+
+}
+
+#navbar .linkporto{
+position: absolute;
+width: 158px;
+height: 46px;
+left: 1090px;
+top: -30px;
+    
+font-family: 'Cooper Black';
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 46px;
+}
+
 #header .kotak1{
 position: absolute;
 width: 478px;
-height: 625px;
+height: 600px;
 left: 0px;
-top: 0px;
+top: 50px;
 
 background: #FFD7E5;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
