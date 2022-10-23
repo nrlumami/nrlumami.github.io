@@ -1,8 +1,8 @@
 .bg{
-    background-color: #f9fcd6;
+    background-color: #fbfde7;
 }
 #nav{
-    background: #FFE300;
+    background: #E4E9BE;
 }
 .image-nav{
     width: 30px;
@@ -12,6 +12,11 @@
 .navbar-brand{
     letter-spacing: 10px;
 }
+#button{
+    border: 2px solid #5B6D5B;
+    color: black;
+}
+
 .image-hero{
     width: 250px;
     height: 250px;
@@ -26,14 +31,17 @@
 #hero{
     height: 95vh;
 }
+.text-about{
+    text-indent: 50px;
+    text-align: justify;
+}
 .card-img-top{
     height: 200px;
-    object-fit: cover;
 }
 
 /* contact */
 #submit{
-    background: #FFE300;
-    border: 2px solid #FFE300;
+    background: #E4E9BE;
+    border: 2px solid #E4E9BE;
     color: black;
 }
